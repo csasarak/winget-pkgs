@@ -1,0 +1,15 @@
+# Created using wingetcreate 1.2.5.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: FOSSA.FOSSA-cli
+PackageVersion: 3.9.15
+Installers:
+- InstallerUrl: https://github.com/fossas/fossa-cli/releases/download/v3.9.15/fossa_3.9.15_windows_amd64.zip
+  Architecture: x64
+  InstallerType: zip
+  NestedInstallerType: portable
+  NestedInstallerFiles:
+  - RelativeFilePath: fossa.exe
+  InstallerSha256: 2FD3B4C59D7783164F4F8671FF35BC5547C11ADC5DEBE0184CA532E72EE647FD
+ManifestType: installer
+ManifestVersion: 1.4.0
